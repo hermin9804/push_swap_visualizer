@@ -24,6 +24,7 @@
 
 - push_swap 디렉토리 명이 ```push_swap```이 아니면 bash 파일에 적힌 ```push_swap``` 경로를 본인의 디렉토리로 교체하거나 디렉토리명을 ```push_swap```으로 바꿔주세요.
 - push_swap 디렉토리와 push_swap_visualizer 디렉토리 에서 각각 ```make``` 를 실행시켜주세요.
+- cd push_swap_visualizer
 - ./run_visualizer.bash <숫자 개수>
 - <숫자 개수> 를 입력 하지 않은 경우 기본값으로 10 이 들어가게 됩니다.
 - 프로그램이 실행된 후 ```\n``` 을 입력 할때마다 하나의 연산을 수행하게 됩니다.
