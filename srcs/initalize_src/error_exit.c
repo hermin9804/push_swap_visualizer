@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:31:04 by mher              #+#    #+#             */
-/*   Updated: 2022/04/16 17:28:02 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:49:55 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "initialize.h"
+#include "../../include/initialize.h"
 
 void	error_exit(const char *msg)
 {

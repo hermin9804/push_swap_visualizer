@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 16:52:56 by mher              #+#    #+#             */
-/*   Updated: 2022/04/18 16:40:12 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:50:18 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "initialize.h"
+#include "../../include/initialize.h"
 
 char	*get_line_num(int argc, char **argv)
 {

@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 16:14:30 by mher              #+#    #+#             */
-/*   Updated: 2022/04/16 02:52:26 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:51:14 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "operator.h"
+#include "../../include/operator.h"
 
 void	rra(t_info *info, char flag)
 {

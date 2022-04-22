@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 00:16:34 by mher              #+#    #+#             */
-/*   Updated: 2022/04/15 16:44:01 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:51:34 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "operator.h"
+#include "../../include/operator.h"
 
 void	swap_stack(t_stack *stack)
 {

@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 18:53:03 by mher              #+#    #+#             */
-/*   Updated: 2022/04/20 03:30:22 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/23 01:17:32 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "checker.h"
+#include "../../include/checker.h"
 #include <fcntl.h>
 
 static void	run_op(t_info *info, char *op)
@@ -41,19 +41,6 @@ static void	run_op(t_info *info, char *op)
 		error_exit("Error\n");
 }
 
-
-static void	print_stick(int	cnt)
-{
-	while (cnt--)
-		write(1, "-", 1);
-}
-
-static void	print_space(int cnt)
-{
-	while (cnt--)
-		write(1, " ", 1);
-}
-
 static void	braker(void)
 {
 	char	*brake;
@@ -66,34 +53,51 @@ static void	braker(void)
 	}
 }
 
-static void	visualizer(const t_info *info)
+static void	padding_buff(char *buff, int *bf_cnt, int cnt, char c)
 {
-	int		i;
+	while (cnt)
+	{
+		buff[*bf_cnt] = c;
+		cnt--;
+		(*bf_cnt)++;
+	}
+}
+
+static void	visualizer_buffer(const t_info *info)
+{
+	int	i;
 	t_list	*a_cur;
 	t_list	*b_cur;
+	char	*buff;
+	int	bf_cnt;
 
 	i = 0;
+	bf_cnt = 0;
 	a_cur = info->a.head;
 	b_cur = info->b.head;
-	system("clear");
+	buff = (char *)malloc(info->max * 2 * info->total_size);
+	ft_bzero(buff, info->max * 2 * info->total_size);
 	while (i < info->total_size)
 	{
 		if (0 < info->a.size && i < info->a.size)
-			print_stick(a_cur->data);
+			padding_buff(buff, &bf_cnt, a_cur->data, '-');
 		if (info->a.size > i)
-			print_space(info->max - a_cur->data);
+			padding_buff(buff, &bf_cnt, info->max - a_cur->data, ' ');
 		else
-			print_space(info->max);
-		write(1, "|", 1);
+			padding_buff(buff, &bf_cnt, info->max, ' ');
+		padding_buff(buff, &bf_cnt, 1, '|');
 		if (0 < info->b.size && i < info->b.size)
-			print_stick(b_cur->data);
-		write(1, "\n", 1);
+			padding_buff(buff, &bf_cnt, b_cur->data, '-');
+		padding_buff(buff, &bf_cnt, 1, '\n');
 		if (1 < info->a.size)
 			a_cur = a_cur->next;
 		if (1 < info->b.size)
 			b_cur = b_cur->next;
 		i++;
 	}
+	system("clear");
+	write(1, buff, bf_cnt);
+	free(buff);
 }
 
 static void	checker(t_info *info)
@@ -109,7 +113,8 @@ static void	checker(t_info *info)
 		error_exit("Error: file open\n");
 	while (1)
 	{
-		visualizer(info);
+		//visualizer(info);
+		visualizer_buffer(info);
 		op = get_next_line(fd);
 		if (!op)
 			break ;

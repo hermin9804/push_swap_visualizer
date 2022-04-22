@@ -6,7 +6,7 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 16:28:10 by mher              #+#    #+#             */
-/*   Updated: 2022/04/18 14:21:29 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:46:50 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ typedef struct s_rotate
 t_list	*ft_lstnew(int data);
 t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstlast_cnt(t_list *lst, int cnt);
-void	ft_lstadd_back(t_list **lst, t_list *new);
-void	ft_lstadd_front(t_list **lst, t_list *new);
+void	ft_lstadd_back(t_list **lst, t_list *new_lst);
+void	ft_lstadd_front(t_list **lst, t_list *new_lst);
 
 #endif

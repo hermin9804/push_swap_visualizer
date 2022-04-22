@@ -6,13 +6,13 @@
 #    By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/13 11:24:10 by mher              #+#    #+#              #
-#    Updated: 2022/04/20 03:39:26 by mher             ###   ########.fr        #
+#    Updated: 2022/04/23 01:02:30 by mher             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME 	= visualizer
 
-CC	= gcc
+CC	= gcc -fsanitize=address -g3
 CFLAGS	= -Wall -Wextra -Werror
 
 FT_DIR		= ./lib/Libft

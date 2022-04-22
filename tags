@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	lib/libgnl/include/get_next_line.h	/^#  define BUFFER_SIZE	/;"	d
+CC	Makefile	/^CC	= gcc$/;"	m
+CC	lib/libft/Makefile	/^CC 	= gcc$/;"	m
+CC	lib/libgnl/Makefile	/^CC	= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	= -Wall -Wextra -Werror$/;"	m
+CFLAGS	lib/libft/Makefile	/^CFLAGS 	= -Wall -Wextra -Werror$/;"	m
+CFLAGS	lib/libgnl/Makefile	/^CFLAGS	= -Wall -Wextra -Werror$/;"	m
+CHECKER_H	include/checker.h	/^# define CHECKER_H$/;"	d
+DATA_STRUCT_DIR	Makefile	/^DATA_STRUCT_DIR = .\/srcs\/data_struct_src$/;"	m
+DATA_STRUCT_H	include/data_struct.h	/^# define DATA_STRUCT_H$/;"	d
+DATA_STRUCT_SRC	Makefile	/^DATA_STRUCT_SRC = \\$/;"	m
+FT	Makefile	/^FT	 	= ft$/;"	m
+FT_DIR	Makefile	/^FT_DIR		= .\/lib\/Libft$/;"	m
+GET_NEXT_LINE_BONUS_H	lib/libgnl/include/get_next_line.h	/^# define GET_NEXT_LINE_BONUS_H$/;"	d
+GNL	Makefile	/^GNL		= gnl$/;"	m
+GNL_DIR	Makefile	/^GNL_DIR		= .\/lib\/libgnl	$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I.\/include$/;"	m
+INCLUDE	lib/libft/Makefile	/^INCLUDE = -I.\/include$/;"	m
+INCLUDE	lib/libgnl/Makefile	/^INCLUDE	= -I.\/include$/;"	m
+INITALIZE_DIR	Makefile	/^INITALIZE_DIR = .\/srcs\/initalize_src$/;"	m
+INITALIZE_SRC	Makefile	/^INITALIZE_SRC = \\$/;"	m
+INITIALIZE_H	include/initialize.h	/^# define INITIALIZE_H$/;"	d
+LIBFT_H	lib/libft/include/libft.h	/^# define LIBFT_H$/;"	d
+NAME	Makefile	/^NAME 	= visualizer$/;"	m
+NAME	lib/libft/Makefile	/^NAME	= libft.a$/;"	m
+NAME	lib/libgnl/Makefile	/^NAME	= libgnl.a$/;"	m
+OBJ	lib/libft/Makefile	/^OBJ	= $(SRC:.c=.o)$/;"	m
+OBJ	lib/libgnl/Makefile	/^OBJ	= $(SRC:.c=.o)$/;"	m
+OPERATOR_DIR	Makefile	/^OPERATOR_DIR = .\/srcs\/operator_src$/;"	m
+OPERATOR_H	include/operator.h	/^# define OPERATOR_H$/;"	d
+OPERATOR_SRC	Makefile	/^OPERATOR_SRC = \\$/;"	m
+PUSH_SWAP_H	include/push_swap.h	/^# define PUSH_SWAP_H$/;"	d
+PUSH_SWAP_OBJ	Makefile	/^PUSH_SWAP_OBJ	= $(PUSH_SWAP_SRC:.c=.o)$/;"	m
+SRC	lib/libft/Makefile	/^SRC = \\$/;"	m
+SRC	lib/libgnl/Makefile	/^SRC = \\$/;"	m
+SRC_DIR	lib/libft/Makefile	/^SRC_DIR = .\/src$/;"	m
+SRC_DIR	lib/libgnl/Makefile	/^SRC_DIR	= .\/src$/;"	m
+TESTER_DIR	Makefile	/^TESTER_DIR	= .\/push_swap_tester	$/;"	m
+VISUALIZER_DIR	Makefile	/^VISUALIZER_DIR =  .\/srcs\/visualizer_src$/;"	m
+VISUALIZER_OBJ	Makefile	/^VISUALIZER_OBJ	= $(VISUALIZER_SRC:.c=.o)$/;"	m
+VISUALIZER_SRC	Makefile	/^VISUALIZER_SRC = \\$/;"	m
+a	include/data_struct.h	/^	t_op	a;$/;"	m	struct:s_rotate
+a	include/data_struct.h	/^	t_stack	a;$/;"	m	struct:s_info
+b	include/data_struct.h	/^	t_op	b;$/;"	m	struct:s_rotate
+b	include/data_struct.h	/^	t_stack	b;$/;"	m	struct:s_info
+braker	srcs/visualizer_src/visualizer.c	/^static void	braker(void)$/;"	f	file:
+check_ascending	srcs/initalize_src/check.c	/^int	check_ascending(t_info *info, int *nums)$/;"	f
+check_dup	srcs/initalize_src/check.c	/^void	check_dup(int *nums, int size)$/;"	f
+check_num_atoi	srcs/initalize_src/check.c	/^int	check_num_atoi(const char *str)$/;"	f
+checker	srcs/visualizer_src/visualizer.c	/^static void	checker(t_info *info)$/;"	f	file:
+data	include/data_struct.h	/^	int				data;$/;"	m	struct:s_list
+error_exit	srcs/initalize_src/error_exit.c	/^void	error_exit(const char *msg)$/;"	f
+f_pivot	include/data_struct.h	/^	int		f_pivot;$/;"	m	struct:s_info
+fd	lib/libgnl/include/get_next_line.h	/^	int				fd;$/;"	m	struct:s_fd_lst
+find_fd	lib/libgnl/src/get_next_line.c	/^t_fd_lst	*find_fd(int fd, t_fd_lst *head)$/;"	f
+ft_abs	lib/libft/src/ft_itoa.c	/^static int	ft_abs(int n)$/;"	f	file:
+ft_atoi	lib/libft/src/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_bzero	lib/libft/src/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_calloc	lib/libft/src/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_get_num_len	lib/libft/src/ft_itoa.c	/^static int	ft_get_num_len(int n)$/;"	f	file:
+ft_get_word_cnt	lib/libft/src/ft_split.c	/^static size_t	ft_get_word_cnt(const char *s, char c)$/;"	f	file:
+ft_get_word_len	lib/libft/src/ft_split.c	/^static size_t	ft_get_word_len(const char *s, char c)$/;"	f	file:
+ft_isalnum	lib/libft/src/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f
+ft_isalpha	lib/libft/src/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f
+ft_isascii	lib/libft/src/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f
+ft_isdigit	lib/libft/src/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f
+ft_isprint	lib/libft/src/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f
+ft_itoa	lib/libft/src/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_lstadd_back	srcs/data_struct_src/list_utils.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/;"	f
+ft_lstadd_front	srcs/data_struct_src/list_utils.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f
+ft_lstlast	srcs/data_struct_src/list_utils.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstlast_cnt	srcs/data_struct_src/list_utils.c	/^t_list	*ft_lstlast_cnt(t_list *lst, int cnt)$/;"	f
+ft_lstnew	srcs/data_struct_src/list_utils.c	/^t_list	*ft_lstnew(int data)$/;"	f
+ft_malloc_error	lib/libft/src/ft_split.c	/^static char	**ft_malloc_error(char **ret)$/;"	f	file:
+ft_memchr	lib/libft/src/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	lib/libft/src/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	lib/libft/src/ft_memcpy.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memmove	lib/libft/src/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	lib/libft/src/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_print_nbr	lib/libft/src/ft_putnbr_fd.c	/^static void	ft_print_nbr(int n, int fd)$/;"	f	file:
+ft_putchar_fd	lib/libft/src/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putendl_fd	lib/libft/src/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	lib/libft/src/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putstr_fd	lib/libft/src/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_split	lib/libft/src/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strchr	lib/libft/src/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strchr	lib/libgnl/src/get_next_line_utils.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strdup	lib/libft/src/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_strdup	lib/libgnl/src/get_next_line_utils.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_striteri	lib/libft/src/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
+ft_strjoin	lib/libft/src/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strjoin	lib/libgnl/src/get_next_line_utils.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	lib/libft/src/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)$/;"	f
+ft_strlcpy	lib/libft/src/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t destsize)$/;"	f
+ft_strlcpy	lib/libgnl/src/get_next_line_utils.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t destsize)$/;"	f
+ft_strlen	lib/libft/src/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f
+ft_strlen	lib/libgnl/src/get_next_line_utils.c	/^size_t	ft_strlen(const char *s)$/;"	f
+ft_strmapi	lib/libft/src/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	lib/libft/src/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strnstr	lib/libft/src/ft_strnstr.c	/^char	*ft_strnstr(const char *haystack, const char *needle, size_t len)$/;"	f
+ft_strrchr	lib/libft/src/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strtrim	lib/libft/src/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	lib/libft/src/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	lib/libft/src/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
+ft_toupper	lib/libft/src/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
+get_line	lib/libgnl/src/get_next_line.c	/^char	*get_line(char *keep)$/;"	f
+get_line_num	srcs/initalize_src/init.c	/^char	*get_line_num(int argc, char **argv)$/;"	f
+get_next_line	lib/libgnl/src/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+get_nums	srcs/initalize_src/init.c	/^int	*get_nums(char *line, t_info *info)$/;"	f
+gnl_or_del	lib/libgnl/src/get_next_line.c	/^char	*gnl_or_del(t_fd_lst **fd_lst)$/;"	f
+head	include/data_struct.h	/^	t_list	*head;$/;"	m	struct:s_stack
+init_pivot	srcs/initalize_src/init.c	/^void	init_pivot(t_info *info, int *nums)$/;"	f
+init_stack	srcs/initalize_src/init.c	/^void	init_stack(t_info *info, int *nums)$/;"	f
+keep	lib/libgnl/include/get_next_line.h	/^	char			*keep;$/;"	m	struct:s_fd_lst
+main	push_swap_tester/random_numbers.cpp	/^int		main(int argc, char** argv)$/;"	f
+main	srcs/visualizer_src/visualizer.c	/^int	main(int argc, char **argv)$/;"	f
+max	include/data_struct.h	/^	int		max;$/;"	m	struct:s_info
+min	include/data_struct.h	/^	int		min;$/;"	m	struct:s_info
+myrandom	push_swap_tester/random_numbers.cpp	/^int				myrandom(long min, long max)$/;"	f
+next	include/data_struct.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+next	lib/libgnl/include/get_next_line.h	/^	struct s_fd_lst	*next;$/;"	m	struct:s_fd_lst	typeref:struct:s_fd_lst::s_fd_lst
+pa	srcs/operator_src/operator_p.c	/^void	pa(t_info *info, char flag)$/;"	f
+pb	srcs/operator_src/operator_p.c	/^void	pb(t_info *info, char flag)$/;"	f
+pop_stack	srcs/operator_src/pop_push_swap_rotate.c	/^t_list	*pop_stack(t_stack *stack)$/;"	f
+prev	include/data_struct.h	/^	struct s_list	*prev;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+prev	lib/libgnl/include/get_next_line.h	/^	struct s_fd_lst	*prev;$/;"	m	struct:s_fd_lst	typeref:struct:s_fd_lst::s_fd_lst
+print_arguments	push_swap_tester/push_swap_tester.bash	/^function print_arguments(){$/;"	f
+print_display	push_swap_tester/push_swap_tester.bash	/^function print_display(){$/;"	f
+print_result	push_swap_tester/push_swap_tester.bash	/^function print_result(){$/;"	f
+print_space	srcs/visualizer_src/visualizer.c	/^static void	print_space(int cnt)$/;"	f	file:
+print_stick	srcs/visualizer_src/visualizer.c	/^static void	print_stick(int	cnt)$/;"	f	file:
+push_stack	srcs/operator_src/pop_push_swap_rotate.c	/^void	push_stack(t_stack *dest, t_stack *from)$/;"	f
+quick_sort	srcs/initalize_src/quick_sort.c	/^void	quick_sort(int *arr, int start, int end)$/;"	f
+r	include/data_struct.h	/^	int	r;$/;"	m	struct:s_op
+ra	srcs/operator_src/operator_r.c	/^void	ra(t_info *info, char flag)$/;"	f
+random_number_vector	push_swap_tester/random_numbers.cpp	/^void	random_number_vector(std::vector<int>& v, int size, int min = 1, int max = 1)$/;"	f
+rb	srcs/operator_src/operator_r.c	/^void	rb(t_info *info, char flag)$/;"	f
+read_file	lib/libgnl/src/get_next_line.c	/^char	*read_file(int fd, char *keep)$/;"	f
+reverse_rotate_stack	srcs/operator_src/pop_push_swap_rotate.c	/^void	reverse_rotate_stack(t_stack *stack)$/;"	f
+rotate_stack	srcs/operator_src/pop_push_swap_rotate.c	/^void	rotate_stack(t_stack *stack)$/;"	f
+rr	include/data_struct.h	/^	int	rr;$/;"	m	struct:s_op
+rr	srcs/operator_src/operator_r.c	/^void	rr(t_info *info, char flag)$/;"	f
+rra	srcs/operator_src/operator_rr.c	/^void	rra(t_info *info, char flag)$/;"	f
+rrb	srcs/operator_src/operator_rr.c	/^void	rrb(t_info *info, char flag)$/;"	f
+rrr	srcs/operator_src/operator_rr.c	/^void	rrr(t_info *info, char flag)$/;"	f
+run_non_arg_test	push_swap_tester/push_swap_tester.bash	/^function run_non_arg_test(){$/;"	f
+run_op	srcs/visualizer_src/visualizer.c	/^static void	run_op(t_info *info, char *op)$/;"	f	file:
+s_fd_lst	lib/libgnl/include/get_next_line.h	/^typedef struct s_fd_lst$/;"	s
+s_info	include/data_struct.h	/^typedef struct s_info$/;"	s
+s_list	include/data_struct.h	/^typedef struct s_list$/;"	s
+s_op	include/data_struct.h	/^typedef struct s_op$/;"	s
+s_pivot	include/data_struct.h	/^	int		s_pivot;$/;"	m	struct:s_info
+s_rotate	include/data_struct.h	/^typedef struct s_rotate$/;"	s
+s_stack	include/data_struct.h	/^typedef struct s_stack$/;"	s
+sa	srcs/operator_src/operator_s.c	/^void	sa(t_info *info, char flag)$/;"	f
+sb	srcs/operator_src/operator_s.c	/^void	sb(t_info *info, char flag)$/;"	f
+size	include/data_struct.h	/^	int		size;$/;"	m	struct:s_stack
+ss	srcs/operator_src/operator_s.c	/^void	ss(t_info *info, char flag)$/;"	f
+swap	srcs/initalize_src/quick_sort.c	/^static void	swap(int *a, int *b)$/;"	f	file:
+swap_stack	srcs/operator_src/pop_push_swap_rotate.c	/^void	swap_stack(t_stack *stack)$/;"	f
+t_fd_lst	lib/libgnl/include/get_next_line.h	/^}	t_fd_lst;$/;"	t	typeref:struct:s_fd_lst
+t_info	include/data_struct.h	/^}	t_info;$/;"	t	typeref:struct:s_info
+t_list	include/data_struct.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_op	include/data_struct.h	/^}	t_op;$/;"	t	typeref:struct:s_op
+t_rotate	include/data_struct.h	/^}	t_rotate;$/;"	t	typeref:struct:s_rotate
+t_stack	include/data_struct.h	/^}	t_stack;$/;"	t	typeref:struct:s_stack
+test	push_swap_tester/push_swap_tester.bash	/^function test(){$/;"	f
+test_error	push_swap_tester/push_swap_tester.bash	/^function test_error(){$/;"	f
+total_size	include/data_struct.h	/^	int		total_size;$/;"	m	struct:s_info
+visualizer	srcs/visualizer_src/visualizer.c	/^static void	visualizer(const t_info *info)$/;"	f	file:

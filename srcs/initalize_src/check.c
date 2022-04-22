@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 22:02:44 by mher              #+#    #+#             */
-/*   Updated: 2022/04/19 20:53:52 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:49:40 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "initialize.h"
+#include "../../include/initialize.h"
 
 void	check_dup(int *nums, int size)
 {

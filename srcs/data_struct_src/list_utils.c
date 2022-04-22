@@ -6,11 +6,11 @@
 /*   By: mher <mher@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 23:31:31 by mher              #+#    #+#             */
-/*   Updated: 2022/04/15 17:43:23 by mher             ###   ########.fr       */
+/*   Updated: 2022/04/22 15:49:26 by mher             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "data_struct.h"
+#include "../../include/data_struct.h"
 
 t_list	*ft_lstnew(int data)
 {
@@ -49,27 +49,27 @@ t_list	*ft_lstlast_cnt(t_list *lst, int cnt)
 	return (lst);
 }
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstadd_back(t_list **lst, t_list *new_list)
 {
 	t_list	*last;
 
-	if (!lst || !new)
+	if (!lst || !new_list)
 		return ;
 	if (!*lst)
 	{
-		*lst = new;
+		*lst = new_list;
 		return ;
 	}
 	last = ft_lstlast(*lst);
-	last->next = new;
-	new->prev = last;
+	last->next = new_list;
+	new_list->prev = last;
 }
 
-void	ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front(t_list **lst, t_list *new_list)
 {
-	if (!lst || !new)
+	if (!lst || !new_list)
 		return ;
-	new->next = *lst;
-	(*lst)->prev = new;
-	*lst = new;
+	new_list->next = *lst;
+	(*lst)->prev = new_list;
+	*lst = new_list;
 }
